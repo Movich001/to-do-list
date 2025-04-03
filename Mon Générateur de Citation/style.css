@@ -1,0 +1,52 @@
+
+ /* Style pour l'ensemble de la page */
+body {
+    font-family: Arial, sans-serif;  /* Police de caractère simple */
+    background-color: #f7f7f7;  /* Couleur de fond claire */
+    display: flex;  /* Utilisation de Flexbox pour centrer le contenu */
+    justify-content: center;  /* Centrer horizontalement */
+    align-items: center;  /* Centrer verticalement */
+    height: 100vh;  /* Hauteur de la fenêtre de vue */
+    margin: 0;  /* Enlever les marges par défaut */
+}
+
+/* Conteneur principal de l'application */
+.container {
+    background-color: #fff;  /* Fond blanc */
+    padding: 30px;  /* Espacement intérieur */
+    border-radius: 8px;  /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Ombre subtile pour l'effet de profondeur */
+    text-align: center;  /* Centrer le texte */
+    width: 300px;  /* Largeur fixe pour le conteneur */
+}
+
+/* Style pour le titre */
+h1 {
+    color: #333;  /* Couleur sombre pour le texte */
+    margin-bottom: 20px;  /* Espacement sous le titre */
+}
+
+/* Style pour le paragraphe contenant la citation */
+#citation {
+    font-size: 18px;  /* Taille de la police */
+    color: #555;  /* Couleur gris clair pour le texte */
+    margin-bottom: 20px;  /* Espacement sous la citation */
+    font-style: italic;  /* Italique pour donner un effet spécial */
+}
+
+/* Style pour le bouton */
+button {
+    padding: 10px 20px;  /* Espacement intérieur du bouton */
+    background-color: #4CAF50;  /* Couleur de fond du bouton */
+    color: white;  /* Texte en blanc */
+    border: none;  /* Enlever les bordures par défaut */
+    border-radius: 4px;  /* Coins arrondis pour le bouton */
+    cursor: pointer;  /* Curseur pointer pour indiquer un clic */
+    font-size: 16px;  /* Taille de la police du bouton */
+    transition: background-color 0.3s ease;  /* Effet de transition pour la couleur de fond */
+}
+
+/* Effet au survol du bouton */
+button:hover {
+    background-color: #45a049;  /* Change la couleur de fond lorsque le bouton est survolé */
+}
